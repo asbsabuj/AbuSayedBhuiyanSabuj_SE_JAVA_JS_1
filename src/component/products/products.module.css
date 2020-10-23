@@ -1,0 +1,59 @@
+
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.List {
+    flex: 0 1 290px;
+    height : 470px;
+    padding: 10px;
+    margin :10px;
+}
+
+.Product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.Image{
+    max-width: 370px;
+    max-height: 370px;
+}
+ .Price {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .Price div{
+     text-align: center;
+     font-size: 20px;
+     flex: 1;
+ }
+
+ .Price button{
+     text-align: center;
+     flex: 1;
+ }
+ 
+ .Button{
+    padding :10px;
+    border: 1PX #C0C0C0 solid;
+    background-color: #f0c040;
+    cursor: pointer;
+}
+ .Button:hover{
+     border: 1px #808080 solid;
+ }
+
+ 

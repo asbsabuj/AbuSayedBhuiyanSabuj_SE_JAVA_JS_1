@@ -1,0 +1,31 @@
+{
+    "products" :[
+        {
+            "id" : "ram1",
+            "title" : "ram",
+            "image" : "/pics/ram1.jpg",
+            "description" : "brand",
+            "price" : 4000
+        },
+
+     
+    
+        {
+            "id" : "motherboard1",
+            "title" : "motherboard",
+            "image" : "/pics/motherboard2.jpg",
+            "description" : "brand",
+            "price" : 10000
+        },
+
+        {
+            "id" : "gpu",
+            "title" : "graphics card",
+            "image" : "/pics/gpu1.jpg",
+            "description" : "brand",
+            "price" : 18000
+        }
+          
+
+    ]
+}

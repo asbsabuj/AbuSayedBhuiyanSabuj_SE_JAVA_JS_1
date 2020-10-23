@@ -1,0 +1,17 @@
+.Header{
+    grid-area: header;
+    background-color: #151f3a;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 35px;
+  }
+  
+Header a{
+    color : white;
+    text-decoration: none;
+  }
+   a:hover{
+     color: orange;
+   }
